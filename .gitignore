@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore dataset backups (keep only heart_disease.csv)
+data/*.csv
+!data/heart_disease.csv
+
+# Ignore models except final_model.pkl
+models/*.pkl
+!models/final_model.pkl
+
+# Ignore results backups (keep only evaluation_metrics.txt)
+results/*
+!results/evaluation_metrics.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
